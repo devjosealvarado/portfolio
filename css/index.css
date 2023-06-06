@@ -1,0 +1,48 @@
+#body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#head {
+    background-color: antiquewhite;
+    height: 40vh;
+
+}
+
+#cintillo {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+#about-link {
+    margin-left: 1rem;
+    border-bottom: solid 5px #323233;
+}
+
+#works-link {
+    margin-left: 1rem;
+    border-bottom: solid 5px #323233;
+}
+
+#contact-link {
+    margin-left: 1rem;
+    margin-right: 10%;
+    border-bottom: solid 5px #323233;
+}
+
+#person {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+}
+
+#content-person {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px;
+}
+
