@@ -105,12 +105,37 @@
 /* Trabajos */
 
 #works {
-    background-color: #505050;
+    background-color: #f2f2f2;
     text-align: center;
     padding-top: 2rem;
     font-size: 2rem;
 }
 
+
+#works #works-orden .work-s .imgwork img{
+    height: 10rem;
+    border-radius: 1rem;
+}
+
 #works-orden {
-    background-color: aquamarine;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#works #works-orden .work-s .description p {
+    font-size: 1rem;
+    
+}
+
+/* Contacto */
+
+#contact {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
