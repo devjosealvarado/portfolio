@@ -138,4 +138,26 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
 }
+
+#container-redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#git {
+    margin-left: 1rem;
+}
+
+#whatsapp {
+    margin-left: 1rem;
+}
+
+#dev {
+    text-align: center;
+    color: #000;
+}
+
