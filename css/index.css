@@ -1,6 +1,7 @@
 #body {
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -11,26 +12,27 @@
 }
 
 #cintillo {
-    background-color: aqua;
+    
     display: flex;
     flex-direction: row;
     justify-content: right;
+    color: #fff;
 }
 
 #about-link {
     margin-left: 1rem;
-    border-bottom: solid 5px #323233;
+    border-bottom: solid 5px #ffff;
 }
 
 #works-link {
     margin-left: 1rem;
-    border-bottom: solid 5px #323233;
+    border-bottom: solid 5px #fff;
 }
 
 #contact-link {
     margin-left: 1rem;
     margin-right: 10%;
-    border-bottom: solid 5px #323233;
+    border-bottom: solid 5px #ffff;
 }
 
 #person {
@@ -38,11 +40,23 @@
     justify-content: center;
     align-items: center;
     height: 60%;
+
 }
 
 #content-person {
     display: flex;
     flex-direction: column;
     border: solid 1px;
+    color: #fff;
+    width: 30%;
+    text-align: center;
+    font-size: 2rem;
 }
 
+#jose {
+    font-weight: 700;
+}
+
+#dev {
+    font-weight: 100;
+}
