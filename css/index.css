@@ -60,3 +60,24 @@
 #dev {
     font-weight: 100;
 }
+
+#face {
+    /* background-color: aqua; */
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#face #img1{
+    height: 10rem;
+    border-radius: 1rem;
+   
+}
+
+#face #img1 img{
+    height: 10rem;
+    border-radius: 50%;
+    border: solid 3px #fff;
+}
