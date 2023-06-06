@@ -58,7 +58,7 @@
 }
 
 #dev {
-    font-weight: 100;
+    color: #fff;
 }
 
 #face {
@@ -100,6 +100,7 @@
 
 #info {
     color: #505050;
+    font-size: 1.1rem;
 }
 
 /* Trabajos */
@@ -111,6 +112,9 @@
     font-size: 2rem;
 }
 
+#works .trabajos {
+    color: #c19b17;
+}
 
 #works #works-orden .work-s .imgwork img{
     height: 10rem;
@@ -134,18 +138,25 @@
 /* Contacto */
 
 #contact {
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     flex-direction: column;
     text-align: center;
     padding-top: 2rem;
     padding-bottom: 3rem;
+    color: #c19b17;
 }
 
 #container-redes {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+#redes {
+    font-size: 2rem;
+    font-weight: 500;
+    
 }
 
 #git {
@@ -156,7 +167,13 @@
     margin-left: 1rem;
 }
 
-#dev {
+#l,#g,#w {
+    text-decoration: none;
+    color: #1e3a8a;
+    font-size: 2rem;
+}
+
+#devfooter {
     text-align: center;
     color: #000;
 }
