@@ -234,3 +234,21 @@
         font-size: 1.5rem;
     }
 }
+
+@media (max-width: 425px) {
+    #content-person {
+        height: 80%;
+        width: 50%;
+        font-size: 1.5rem;
+    }
+
+    #linkedin a, #git a, #whatsapp a {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 320px) {
+    #content-person {
+        font-size: 1.3rem;
+    }
+}
