@@ -26,18 +26,23 @@
 
 #about-link {
     margin-left: 1rem;
+    border-bottom: solid 5px #ffffff00;
+}
+
+#about-link:hover, #works-link:hover, #contact-link:hover {
     border-bottom: solid 5px #ffff;
+    transition: all 0.3s ease-out;
 }
 
 #works-link {
     margin-left: 1rem;
-    border-bottom: solid 5px #fff;
+    border-bottom: solid 5px #ffffff00;
 }
 
 #contact-link {
     margin-left: 1rem;
     margin-right: 10%;
-    border-bottom: solid 5px #ffff;
+    border-bottom: solid 5px #ffffff00;
 }
 
 #person {
@@ -183,3 +188,49 @@
     color: #000;
 }
 
+/*  --- Media --- */
+
+@media (max-width: 1024px) {
+
+    #person {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60%;
+    
+    }
+
+    #content-person {
+        height: 80%;
+        width: 50%;
+    }
+    
+    #works-orden {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .imgwork {
+        width: 20vh;
+    }
+
+    .imgwork img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .work-s {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 600px) {
+    #content-person {
+        height: 80%;
+        width: 50%;
+        font-size: 1.5rem;
+    }
+}
